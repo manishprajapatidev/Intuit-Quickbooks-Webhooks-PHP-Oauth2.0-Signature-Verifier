@@ -17,7 +17,7 @@ if($isValid) {
     $eventObj = $dataPosted['eventNotifications'][$key];
     if (count($eventObj['dataChangeEvent']['entities'])) {
 
-        // Do you work now
+        // Do you work now, Signature is valid
     }
 } else {
     // Signature is not valid
